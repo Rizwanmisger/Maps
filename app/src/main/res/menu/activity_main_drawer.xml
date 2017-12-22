@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+   <!-- <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>-->
+
+    <item android:title="Nearby">
+        <menu>
+            <item
+                android:id="@+id/nav_restaurant"
+                android:icon="@drawable/ic_restaurant_black_24dp"
+                android:title="Restaurant" />
+            <item
+                android:id="@+id/nav_hospital"
+                android:icon="@drawable/ic_local_hospital_black_24dp"
+                android:title="Hospital" />
+
+        </menu>
+    </item>
+    <group>
+        <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search" />
+        <item
+            android:id="@+id/nav_fragment"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Fragment Test" />
+    </group>
+</menu>
